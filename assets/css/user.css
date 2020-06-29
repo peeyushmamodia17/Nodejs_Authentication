@@ -1,0 +1,49 @@
+.container5 {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 30px; }
+  .container5 .card {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: white; }
+    .container5 .card #name {
+      padding: 5px 0px 5px 10px;
+      color: black;
+      width: 100%; }
+    .container5 .card #username1 {
+      width: 100%;
+      padding: 5px 0px 5px 10px;
+      color: black;
+      margin: 10px 0px; }
+    .container5 .card #check {
+      margin-top: 20px;
+      width: 20px;
+      height: 20px; }
+    .container5 .card #user {
+      color: black !important;
+      background-color: orange;
+      padding: 3px 30px 3px 3px; }
+    .container5 .card #username {
+      width: 100%;
+      padding: 5px 0px 5px 10px;
+      color: black; }
+    .container5 .card #user1 {
+      color: black !important;
+      background-color: orange;
+      padding: 3px 30px 3px 3px;
+      margin: 20px 0px 0px 0px; }
+    .container5 .card span #content1 {
+      border-radius: 15px;
+      border: 1px solid white;
+      color: black;
+      background-color: orange;
+      padding: 3px 20px 3px 20px;
+      float: right;
+      margin-top: 40px; }
+    .container5 .card .card-footer #content1 {
+      text-decoration: none;
+      border-radius: 15px;
+      border: 1px solid white;
+      color: black;
+      background-color: orange;
+      padding: 3px 20px 3px 20px;
+      margin-top: 40px; }

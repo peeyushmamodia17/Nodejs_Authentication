@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="/css/home.css">
+<div class="home">
+    <h1>Welcome to the home page</h1>
+    <p>Here you see the demo of Nodejs_Authentication Project</p>
+</div>
+<div id="head2">
+    <% if(locals.user){ %>
+        <p><%=user.name%></p>
+        <p>This change password is using without sending mail because user is allready login.</p>
+        <p>
+            If you want to see reset password using mail then firstly logout then go to login page and click on forgot password.
+        </p>
+        <a href="/user/reset">Change Password</a>
+    <%}%>
+</div>

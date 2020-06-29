@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/css/home.css">
+<div class="profile">
+    
+    <h1><%=locals.user.name%></h1>
+    <p><%=locals.user.email%></p>
+     <% var date= new Date(locals.user.Birth_date); %>
+    <p><%= date.toDateString(); %></p>
+    
+</div>
+<div id="head2">
+    <a href="/user/reset">Change Password</a>
+</div>
