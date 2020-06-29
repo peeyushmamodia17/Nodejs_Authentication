@@ -174,7 +174,7 @@ module.exports.forgotSuccess =async function(req,res){
         await user.save();
         //send confirm mail
         resetSuccess.resetPasswordSuccss(user);
-        req.flash('info', 'An e-mail has been sent to ' + user.email + ' with further instructions.');
+        req.flash('success', 'An e-mail has been sent to ' + user.email + ' with further instructions.');
         return res.redirect('/user/login');
     }catch(err){
         if(err){
